@@ -1,0 +1,21 @@
+.Header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: auto;
+    align-items: center;
+    background-color:#4267B2;
+    
+    
+
+padding: 5px;
+
+
+    grid-area: header;
+
+    img{
+        width: 40px;
+       
+    }
+}

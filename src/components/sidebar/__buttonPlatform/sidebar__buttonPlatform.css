@@ -1,0 +1,44 @@
+.Sidebar__buttonPlatform {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.Sidebar__button_hover, .Sidebar__button_unhover {
+  border-width: 0.1px;
+  display: block;
+  margin-top: 8px;
+  min-width: 91px;
+  border-color: none;
+  border-style: none;
+  height: 25px;
+  color: #4267B2;
+  text-decoration: none;
+  text-align: center;
+  width: 85%;
+  text-align: left;
+}
+
+.Sidebar__buttonPlatform:hover .Sidebar__button_unhover,
+.Sidebar__buttonPlatform .Sidebar__button_hover {
+  display: none;
+}
+
+.Sidebar__buttonPlatform:hover .Sidebar__button_hover {
+  display: block;
+  background-color: #d4d4d4;
+  border-color: rgba(212, 212, 212, 0);
+  border: none;
+  color: white;
+}
+/*# sourceMappingURL=sidebar__buttonPlatform.css.map */

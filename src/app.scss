@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.App {
+  
+width:100vw;
+max-width: 1200px;
+height:100vh;
+margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 20% 80% ;
+  grid-template-rows: 50px 9fr 1fr ;
+  grid-template-areas: 
+    "header header"
+    "sidebar contentBlock"
+    "footer footer";
+
+}
