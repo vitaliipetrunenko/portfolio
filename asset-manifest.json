@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f8bdb79a.chunk.css",
-    "main.js": "/portfolio/static/js/main.26cf7b4a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.26cf7b4a.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.95296836.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.95296836.js.map",
-    "static/js/2.8c16777e.chunk.js": "/portfolio/static/js/2.8c16777e.chunk.js",
-    "static/js/2.8c16777e.chunk.js.map": "/portfolio/static/js/2.8c16777e.chunk.js.map",
-    "static/js/3.53917169.chunk.js": "/portfolio/static/js/3.53917169.chunk.js",
-    "static/js/3.53917169.chunk.js.map": "/portfolio/static/js/3.53917169.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.87ce6769.chunk.css",
+    "main.js": "/portfolio/static/js/main.37408fce.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.37408fce.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.280a1dde.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.280a1dde.js.map",
+    "static/js/2.dd685c12.chunk.js": "/portfolio/static/js/2.dd685c12.chunk.js",
+    "static/js/2.dd685c12.chunk.js.map": "/portfolio/static/js/2.dd685c12.chunk.js.map",
+    "static/js/3.fbe9f88b.chunk.js": "/portfolio/static/js/3.fbe9f88b.chunk.js",
+    "static/js/3.fbe9f88b.chunk.js.map": "/portfolio/static/js/3.fbe9f88b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.f8bdb79a.chunk.css.map": "/portfolio/static/css/main.f8bdb79a.chunk.css.map",
-    "static/js/2.8c16777e.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8c16777e.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/portfolio/static/media/logo.6ce24c58.svg"
+    "static/css/main.87ce6769.chunk.css.map": "/portfolio/static/css/main.87ce6769.chunk.css.map",
+    "static/js/2.dd685c12.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dd685c12.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/portfolio/static/media/logo.6ce24c58.svg",
+    "static/media/арбуз4.a5c01db8.jpg": "/portfolio/static/media/арбуз4.a5c01db8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.95296836.js",
-    "static/js/2.8c16777e.chunk.js",
-    "static/css/main.f8bdb79a.chunk.css",
-    "static/js/main.26cf7b4a.chunk.js"
+    "static/js/runtime-main.280a1dde.js",
+    "static/js/2.dd685c12.chunk.js",
+    "static/css/main.87ce6769.chunk.css",
+    "static/js/main.37408fce.chunk.js"
   ]
 }
