@@ -12,4 +12,8 @@
       grid-template-rows: 50px 9fr 1fr;
       grid-template-areas: "header header" "sidebar contentBlock" "footer footer";
 }
+
+.app-wrapper {
+  background-color: aqua;
+}
 /*# sourceMappingURL=app.css.map */
