@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.843753fc.chunk.css",
-    "main.js": "/portfolio/static/js/main.37408fce.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.37408fce.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.280a1dde.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.280a1dde.js.map",
-    "static/js/2.dd685c12.chunk.js": "/portfolio/static/js/2.dd685c12.chunk.js",
-    "static/js/2.dd685c12.chunk.js.map": "/portfolio/static/js/2.dd685c12.chunk.js.map",
-    "static/js/3.fbe9f88b.chunk.js": "/portfolio/static/js/3.fbe9f88b.chunk.js",
-    "static/js/3.fbe9f88b.chunk.js.map": "/portfolio/static/js/3.fbe9f88b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.734f2a11.chunk.css",
+    "main.js": "/portfolio/static/js/main.b1ecb882.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b1ecb882.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.5d879758.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5d879758.js.map",
+    "static/js/2.5ecc0277.chunk.js": "/portfolio/static/js/2.5ecc0277.chunk.js",
+    "static/js/2.5ecc0277.chunk.js.map": "/portfolio/static/js/2.5ecc0277.chunk.js.map",
+    "static/js/3.ca64a3c7.chunk.js": "/portfolio/static/js/3.ca64a3c7.chunk.js",
+    "static/js/3.ca64a3c7.chunk.js.map": "/portfolio/static/js/3.ca64a3c7.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.843753fc.chunk.css.map": "/portfolio/static/css/main.843753fc.chunk.css.map",
-    "static/js/2.dd685c12.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dd685c12.chunk.js.LICENSE.txt",
+    "static/css/main.734f2a11.chunk.css.map": "/portfolio/static/css/main.734f2a11.chunk.css.map",
+    "static/js/2.5ecc0277.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5ecc0277.chunk.js.LICENSE.txt",
+    "static/media/image01__.92e45fd6.jpg": "/portfolio/static/media/image01__.92e45fd6.jpg",
     "static/media/logo.6ce24c58.svg": "/portfolio/static/media/logo.6ce24c58.svg",
+    "static/media/lorem-ipsum-generator-cicero-engraving.057a1842.png": "/portfolio/static/media/lorem-ipsum-generator-cicero-engraving.057a1842.png",
     "static/media/арбуз4.a5c01db8.jpg": "/portfolio/static/media/арбуз4.a5c01db8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.280a1dde.js",
-    "static/js/2.dd685c12.chunk.js",
-    "static/css/main.843753fc.chunk.css",
-    "static/js/main.37408fce.chunk.js"
+    "static/js/runtime-main.5d879758.js",
+    "static/js/2.5ecc0277.chunk.js",
+    "static/css/main.734f2a11.chunk.css",
+    "static/js/main.b1ecb882.chunk.js"
   ]
 }
