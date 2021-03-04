@@ -16,4 +16,11 @@
 .app-wrapper {
   background-color: aqua;
 }
+
+.ContentBlock {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: contentBlock;
+  padding: 2%;
+}
 /*# sourceMappingURL=app.css.map */

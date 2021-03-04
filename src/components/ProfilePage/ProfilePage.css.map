@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,SAAS,EAAE,YAAY;CAC1B",
     "sources": [
-        "contentBlock.scss"
+        "ProfilePage.scss"
     ],
     "names": [],
-    "file": "contentBlock.css"
+    "file": "ProfilePage.css"
 }

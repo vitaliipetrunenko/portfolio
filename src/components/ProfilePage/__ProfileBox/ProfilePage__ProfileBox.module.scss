@@ -1,0 +1,21 @@
+
+.ProfilePage__ProfileBox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    img{
+        width: 80px;
+        border-radius: 100%;
+        height: 80px;
+        object-fit: cover;
+    }
+    background-color:  #ecebeb;
+}
+.PersonalInfo{
+   
+    text-align:right;
+    
+}
