@@ -42,4 +42,8 @@
   border: none;
   color: #4d4d4d;
 }
-/*# sourceMappingURL=sidebar__buttonPlatform.css.map */
+
+.active {
+  background-color: #d4d4d4;
+}
+/*# sourceMappingURL=sidebar__buttonPlatform.module.css.map */

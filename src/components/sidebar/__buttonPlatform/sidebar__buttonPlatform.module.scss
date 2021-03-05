@@ -14,7 +14,7 @@
     margin-top:8px;
     min-width: 91px;
     border-color: none;
-    border-style: none;
+    border-style: none; 
     height:25px;
     color:#949494;
     //outline-style: solid;
@@ -46,4 +46,7 @@
     //transform: scale(1.05);
     //box-shadow: 1px 1px black;
     
+}
+.active{
+    background-color: rgb(212, 212, 212);;
 }

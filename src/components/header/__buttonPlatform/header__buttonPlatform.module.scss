@@ -32,6 +32,9 @@
     color: #4267B2;
     transform: scale(1.05);
     box-shadow: 1px 1px black;
+
     
-    
+}
+.Header__button_hover .inactive, .Header__button_unhover .inactive{
+    display: none;  
 }

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAC,AAAA,uBAAuB,CAAA;EACnB,YAAY,EAAE,SAAU;CAG3B;;AACD,AAAA,OAAO,CAAA;EACJ,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,EAAE;CACd",
+    "sources": [
+        "DialogPage__DialogList.module.scss"
+    ],
+    "names": [],
+    "file": "DialogPage__DialogList.module.css"
+}

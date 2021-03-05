@@ -29,4 +29,8 @@
   -webkit-box-shadow: 1px 1px black;
           box-shadow: 1px 1px black;
 }
+
+.Header__button_hover .inactive, .Header__button_unhover .inactive {
+  display: none;
+}
 /*# sourceMappingURL=header__buttonPlatform.module.css.map */

@@ -1,0 +1,7 @@
+.DialogPage {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5fr 10fr;
+      grid-template-columns: 5fr 10fr;
+}
+/*# sourceMappingURL=DialogPage.module.css.map */

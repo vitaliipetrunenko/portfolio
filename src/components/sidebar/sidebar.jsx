@@ -5,8 +5,9 @@ import Sidebar__buttonPlatform from './__buttonPlatform/sidebarr__buttonPlatform
 function Sidebar() {
     return (
         <div className='Sidebar'>
-            <Sidebar__buttonPlatform txt="Profile" />
-            <Sidebar__buttonPlatform txt="Messages" />
+            <Sidebar__buttonPlatform txt="News" link="/news"/>
+            <Sidebar__buttonPlatform txt="Profile" link="/profile"/>
+            <Sidebar__buttonPlatform txt="Messages" link="/messages"/>
             <Sidebar__buttonPlatform txt="Gallery" />
             <Sidebar__buttonPlatform txt="Music" />
             <Sidebar__buttonPlatform txt="Bookmarks" />
