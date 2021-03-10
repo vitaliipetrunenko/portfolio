@@ -13,7 +13,13 @@ import lorem3 from "./media/photos/lorem-ipsum-generator-cicero-engraving.png"
 
 
 function App() {
-   let postDB = [{txt: "post 1", img: null},{txt: "lorem", img: lorem1},{txt: "lorem lorem lorem", img: lorem2 },{txt: "lorem...", img: lorem3}];
+  
+   let postDB = [
+     {txt: "post 1", img: null},
+     {txt: "lorem", img: lorem1},
+     {txt: "lorem lorem lorem", img: lorem2 },
+     {txt: "lorem...", img: lorem3}
+    ];
   return (
     
     <BrowserRouter>
@@ -36,5 +42,5 @@ function App() {
   );
 }
 
-
+export const currUser="dima";
 export default App;

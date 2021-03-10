@@ -3,6 +3,7 @@
   max-width: 1200px;
   height: 100vh;
   margin: 0 auto;
+  background: #e4e4e4;
   text-align: center;
   display: -ms-grid;
   display: grid;
@@ -21,14 +22,18 @@
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: contentBlock;
-  padding: 2%;
-  max-width: 80vw;
+  max-width: 700px;
+  background-color: white;
+  width: 80vw;
 }
 
 @media (max-width: 699px) {
   .App {
     -ms-grid-columns: 40px 1fr;
         grid-template-columns: 40px 1fr;
+  }
+  .ContentBlock {
+    width: calc(100vw - 40px);
   }
 }
 /*# sourceMappingURL=app.css.map */

@@ -51,6 +51,12 @@
 .active{
     background-color: rgb(212, 212, 212);;
 }
+//
+
+.Sidebar__button_hover_Mini,.Sidebar__button_unhover_Mini{
+    display:none;
+}
+
 }
 @media (max-width: 699px) {
     .Sidebar__buttonPlatform{
@@ -61,7 +67,7 @@
         align-content: center;
        }
        
-       .Sidebar__button_hover,.Sidebar__button_unhover{
+       .Sidebar__button_hover_Mini,.Sidebar__button_unhover_Mini{
            
          
            
@@ -88,12 +94,12 @@
        }
        
        
-       .Sidebar__buttonPlatform:hover .Sidebar__button_unhover,
-       .Sidebar__buttonPlatform .Sidebar__button_hover{
+       .Sidebar__buttonPlatform:hover .Sidebar__button_unhover_Mini,
+       .Sidebar__buttonPlatform .Sidebar__button_hover_Mini{
           display:none;
            
        }
-       .Sidebar__buttonPlatform:hover .Sidebar__button_hover{
+       .Sidebar__buttonPlatform:hover .Sidebar__button_hover_Mini{
            display: block;
           
            border:none;
@@ -105,5 +111,8 @@
        .active{
            color:blue;
        }
+       //
+       .Sidebar__button_hover{display: none;}
+       .Sidebar__button_unhover{display: none;}
 
 }

@@ -7,7 +7,11 @@
     align-items: center;
     background-color:#4267B2;
     
+    @media (max-width: 699px) {
+
+        justify-content: space-evenly;
     
+    }
 
 padding: 5px;
 

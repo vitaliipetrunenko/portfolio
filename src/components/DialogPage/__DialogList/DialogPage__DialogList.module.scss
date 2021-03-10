@@ -43,23 +43,25 @@
     }
     .DialogItem{
         max-width: fit-content;
-        padding: 1vh;
+        padding: 5px;
     }
     .DialogPage__DialogList{
         max-width: fit-content;
     }
-
+    .avatar{
+        border-radius: 100%;
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+        padding: 1%;
+    }
 }
 h4{
     font-size:medium;
-    
 }
 h5{
     font-size: small;
-    
 }
 h6{
     font-size: smaller;
-    
-    
 }

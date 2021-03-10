@@ -18,6 +18,9 @@
     
 }
 @media (max-width: 699px) {
+
+    
+
     .Header__button_hover,.Header__button_unhover{
         min-width: fit-content;
         border-radius: 15px;
@@ -27,6 +30,7 @@
         line-break: strict;
         overflow: hidden;
         white-space: nowrap;
+        font-size: x-small;
     }
 
 }

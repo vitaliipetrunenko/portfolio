@@ -1,0 +1,104 @@
+.DialogField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: inherit;
+  max-height: 90vh;
+  overflow-y: scroll;
+}
+
+.MessageBoxLeft {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.MessageBoxLeft .message {
+  border-radius: 15px 15px 15px 0px;
+}
+
+.MessageBoxLeft .message .date {
+  text-align: left;
+}
+
+.MessageBoxRight {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.MessageBoxRight .message {
+  border-radius: 15px 15px 0px 15px;
+}
+
+.MessageBoxRight .message .date {
+  text-align: right;
+}
+
+:is(.MessageBoxLeft, .MessageBoxRight) {
+  max-width: inherit;
+  text-align: left;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+:is(.MessageBoxLeft, .MessageBoxRight) .message {
+  max-width: 80%;
+  border: solid 1px;
+  text-align: left;
+  min-width: 5vw;
+  line-height: 2;
+  padding: 0.3rem;
+  margin-bottom: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-wrap: anywhere;
+}
+
+:is(.MessageBoxLeft, .MessageBoxRight) .message .date {
+  font-size: smaller;
+  color: lightgrey;
+  width: 100%;
+}
+
+:is(.MessageBoxLeft, .MessageBoxRight) .avatar {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1%;
+}
+
+@media (max-width: 699px) {
+  :is(.MessageBoxLeft, .MessageBoxRight) .avatar {
+    width: 25px;
+    height: 25px;
+  }
+}
+/*# sourceMappingURL=DialogPage__DialogField.module.css.map */

@@ -2,5 +2,13 @@
      display: grid;
      grid-template-columns: 5fr 10fr;
      
-     max-width: 80vw;
+     max-width: 1fr;
+     max-height: 90vh;
+ }
+ @media (max-width: 699px) {
+    .DialogPage{
+        grid-template-columns: 1fr 10fr;
+
+    }
+
  }

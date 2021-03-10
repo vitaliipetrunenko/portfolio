@@ -26,6 +26,7 @@
     line-break: strict;
     overflow: hidden;
     white-space: nowrap;
+    font-size: x-small;
   }
 }
 

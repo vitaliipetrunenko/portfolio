@@ -15,9 +15,9 @@ function Post(props) {
             <img src={props.img} ></img>
             <p className={styl.postText}>{props.txt}</p>
             <div className={styl.postFooter}>
-                <Header__buttonPlatform txt="like"/>
-                <Header__buttonPlatform txt="comment"/>
-                <Header__buttonPlatform txt="report"/>
+                <Header__buttonPlatform txt="like" post={true}/>
+                <Header__buttonPlatform txt="comment" post={true}/>
+                <Header__buttonPlatform txt="report" post={true}/>
             </div>
             
 

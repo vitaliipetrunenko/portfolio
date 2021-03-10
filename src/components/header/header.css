@@ -18,6 +18,14 @@
   grid-area: header;
 }
 
+@media (max-width: 699px) {
+  .Header {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
 .Header img {
   width: 40px;
 }
