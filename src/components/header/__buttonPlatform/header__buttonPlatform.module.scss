@@ -17,7 +17,19 @@
    
     
 }
+@media (max-width: 699px) {
+    .Header__button_hover,.Header__button_unhover{
+        min-width: fit-content;
+        border-radius: 15px;
+        padding: 3px;
+        word-wrap:break-word;
+        text-overflow: ellipsis;
+        line-break: strict;
+        overflow: hidden;
+        white-space: nowrap;
+    }
 
+}
 
 
 .Header__buttonPlatform:hover .Header__button_unhover,

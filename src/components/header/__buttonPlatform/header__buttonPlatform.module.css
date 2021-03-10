@@ -14,6 +14,21 @@
   line-height: 2;
 }
 
+@media (max-width: 699px) {
+  .Header__button_hover, .Header__button_unhover {
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    border-radius: 15px;
+    padding: 3px;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    line-break: strict;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
 .Header__buttonPlatform:hover .Header__button_unhover,
 .Header__buttonPlatform .Header__button_hover {
   display: none;

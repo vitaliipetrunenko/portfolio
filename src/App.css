@@ -22,5 +22,13 @@
   -ms-grid-column: 2;
   grid-area: contentBlock;
   padding: 2%;
+  max-width: 80vw;
+}
+
+@media (max-width: 699px) {
+  .App {
+    -ms-grid-columns: 40px 1fr;
+        grid-template-columns: 40px 1fr;
+  }
 }
 /*# sourceMappingURL=app.css.map */

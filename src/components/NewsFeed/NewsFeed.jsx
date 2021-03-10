@@ -8,15 +8,10 @@ import lorem3 from "./../../media/photos/lorem-ipsum-generator-cicero-engraving.
 
 
 function NewsFeed(props) {
+    let posts = props.postDB.map( el => <Post txt={el.txt} img={el.img} />);
     return (
         <div className={styl.NewsFeed}>
-            <Post txt="post 1"/>
-            <Post txt="lorem" img={lorem1}/>
-            <Post txt="lorem lorem lorem" img ={lorem2}/>
-            <Post txt="lorem..." img ={lorem3}/>
-            
-
-
+            {posts}
         </div>
     );
 }

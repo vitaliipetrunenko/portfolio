@@ -3,5 +3,6 @@
   display: grid;
   -ms-grid-columns: 5fr 10fr;
       grid-template-columns: 5fr 10fr;
+  max-width: 80vw;
 }
 /*# sourceMappingURL=DialogPage.module.css.map */

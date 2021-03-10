@@ -1,3 +1,4 @@
+@media (min-width: 700px) {
 .Sidebar__buttonPlatform{
  width:90%;
  display: flex;
@@ -49,4 +50,60 @@
 }
 .active{
     background-color: rgb(212, 212, 212);;
+}
+}
+@media (max-width: 699px) {
+    .Sidebar__buttonPlatform{
+        
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-content: center;
+       }
+       
+       .Sidebar__button_hover,.Sidebar__button_unhover{
+           
+         
+           
+           display: block;
+           margin-top:8px;
+           
+           
+           border-color: none;
+           border-style: none; 
+           height:25px;
+           color:#949494;
+           //outline-style: solid;
+           text-decoration: none;
+           text-align: center;
+           //line-height: 2;
+           
+           text-align: left;
+           
+       
+           
+       
+          
+           
+       }
+       
+       
+       .Sidebar__buttonPlatform:hover .Sidebar__button_unhover,
+       .Sidebar__buttonPlatform .Sidebar__button_hover{
+          display:none;
+           
+       }
+       .Sidebar__buttonPlatform:hover .Sidebar__button_hover{
+           display: block;
+          
+           border:none;
+          
+           //transform: scale(1.05);
+           //box-shadow: 1px 1px black;
+           
+       }
+       .active{
+           color:blue;
+       }
+
 }
