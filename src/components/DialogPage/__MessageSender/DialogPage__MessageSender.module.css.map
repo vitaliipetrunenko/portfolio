@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAC,AAAA,cAAc,CAAA;EACV,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,SAAS;EACjB,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,OAAO;EACpB,eAAe,EAAE,OAAO;CAC3B",
+    "sources": [
+        "DialogPage__MessageSender.module.scss"
+    ],
+    "names": [],
+    "file": "DialogPage__MessageSender.module.css"
+}

@@ -10,16 +10,13 @@ function Header() {
         <div className='Header'>
         <NavLink to="/news/"><img src={logo1} ></img></NavLink>
             
-            <MediaQuery minDeviceWidth={700} device={{deviceWidth: visualViewport.width}}>
+            
                 <Header__buttonPlatform txt="About"/>
                 <Header__buttonPlatform txt="Our goal"/>
                 <Header__buttonPlatform txt="More info"/>
                 <Header__buttonPlatform txt="Contact us"/>
                 
-                </MediaQuery>
-                <MediaQuery maxDeviceWidth={699} device={{deviceWidth: visualViewport.width}}>
-                    <p>phone version in progress</p>
-                </MediaQuery>
+               
 
 
         </div>

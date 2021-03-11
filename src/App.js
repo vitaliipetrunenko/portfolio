@@ -7,19 +7,12 @@ import Footer from './components/footer/footer';
 import { BrowserRouter, Route, Redirect } from 'react-router-dom';
 import DialogPage from './components/DialogPage/DialogPage';
 import NewsFeed from './components/NewsFeed/NewsFeed';
-import lorem1 from "./media/photos/image01__.jpg"
-import lorem2 from "./media/photos/images.jpg"
-import lorem3 from "./media/photos/lorem-ipsum-generator-cicero-engraving.png"
 
 
-function App() {
+
+function App(data) {
   
-   let postDB = [
-     {txt: "post 1", img: null},
-     {txt: "lorem", img: lorem1},
-     {txt: "lorem lorem lorem", img: lorem2 },
-     {txt: "lorem...", img: lorem3}
-    ];
+   
   return (
     
     <BrowserRouter>
@@ -30,11 +23,15 @@ function App() {
       <div className="ContentBlock">
       <Redirect to="/news/" />
             <Route exact path='/news/' render={(props) => (
-          <NewsFeed postDB={postDB} isAuthed={true} />
+          <NewsFeed postDB={data.state.postData.postDB} isAuthed={true} />
         )}
       />
-          <Route path='/profile/' component={ProfilePage}/>
-          <Route path='/messages/' component={DialogPage}/>
+          <Route path='/profile/' render={(props) => (
+          <ProfilePage postDB={data.state.postData.postDB} isAuthed={true} />
+        )}/>
+          <Route path='/messages/' render={(props) => (
+          <DialogPage dialoglistDB={data.state.dialogData.dialoglistDB} dialogMessagesDB={data.state.dialogData.dialogMessagesDB} isAuthed={true} />
+        )}/>
       </div>
       <Footer />
     </div>

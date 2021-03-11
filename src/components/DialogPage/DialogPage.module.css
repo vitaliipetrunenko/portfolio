@@ -1,8 +1,8 @@
 .DialogPage {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 5fr 10fr;
-      grid-template-columns: 5fr 10fr;
+  -ms-grid-columns: 4fr 10fr;
+      grid-template-columns: 4fr 10fr;
   max-width: 1fr;
   max-height: 90vh;
 }

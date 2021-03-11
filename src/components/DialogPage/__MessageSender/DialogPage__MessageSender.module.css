@@ -1,0 +1,15 @@
+.MessageSender {
+  height: 10vh;
+  border: 1px solid;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+/*# sourceMappingURL=DialogPage__MessageSender.module.css.map */
