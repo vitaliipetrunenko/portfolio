@@ -1,0 +1,16 @@
+.Post {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2%;
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: #e4e4e4;
+  max-height: 100vh;
+}
+/*# sourceMappingURL=NewPost.module.css.map */

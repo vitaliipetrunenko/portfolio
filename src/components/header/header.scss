@@ -9,7 +9,7 @@
     
     @media (max-width: 699px) {
 
-        justify-content: space-evenly;
+        justify-content: space-between;
     
     }
 
@@ -19,6 +19,8 @@ padding: 5px;
     grid-area: header;
 
     img{
+        justify-self: flex-start;
+         
         width: 40px;
        
     }

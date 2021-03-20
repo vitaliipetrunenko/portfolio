@@ -16,7 +16,7 @@ function DialogPage(props) {
     return (
         <div className={styl.DialogPage}>
            <DialogPage__DialogList dialoglistDb={props.dialoglistDB}/>
-            <DialogPage__DialogField dialogMessages={props.dialogMessagesDB}/>
+            <DialogPage__DialogField dialogMessages={props.dialogMessagesDB} addMessageprop={props.addMessageprop}/>
            
              
 

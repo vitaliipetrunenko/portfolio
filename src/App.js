@@ -10,6 +10,7 @@ import NewsFeed from './components/NewsFeed/NewsFeed';
 
 
 
+
 function App(data) {
   
    
@@ -23,14 +24,14 @@ function App(data) {
       <div className="ContentBlock">
       <Redirect to="/news/" />
             <Route exact path='/news/' render={(props) => (
-          <NewsFeed postDB={data.state.postData.postDB} isAuthed={true} />
+          <NewsFeed postDB={data.state.postData.postDB} addPostprop={data.addPostprop} isAuthed={true} />
         )}
       />
           <Route path='/profile/' render={(props) => (
           <ProfilePage postDB={data.state.postData.postDB} isAuthed={true} />
         )}/>
           <Route path='/messages/' render={(props) => (
-          <DialogPage dialoglistDB={data.state.dialogData.dialoglistDB} dialogMessagesDB={data.state.dialogData.dialogMessagesDB} isAuthed={true} />
+          <DialogPage dialoglistDB={data.state.dialogData.dialoglistDB} dialogMessagesDB={data.state.dialogData.dialogMessagesDB} addMessageprop={data.addMessageprop} isAuthed={true} />
         )}/>
       </div>
       <Footer />
@@ -39,5 +40,6 @@ function App(data) {
   );
 }
 
-export const currUser="dima";
+
 export default App;
+

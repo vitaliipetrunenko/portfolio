@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styl from './DialogPage__DialogField.module.css';
-import {currUser} from './../../../App.js';
+import {currUser} from './../../../redux/state.js';
 import DialogPage_MessageSender from '../__MessageSender/DialogPage__MessageSender';
 
 
@@ -48,10 +48,10 @@ function MessageBox(props) {
 function DialogPage__DialogField(props) {
     let Messages = props.dialogMessages.map(el => <MessageBox text={el.text} date={el.date} sender={el.sender} avatar={el.avatar} img={el.img} />);
     return (<div className={styl.MessageWrapper}>
-        <DialogPage_MessageSender/>
+        <DialogPage_MessageSender addMessage={props.addMessageprop}/>
         <div className={styl.DialogField}>
             
-            {Messages}
+            {Messages.reverse()}
             
 
 

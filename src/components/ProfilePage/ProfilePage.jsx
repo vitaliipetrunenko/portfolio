@@ -9,7 +9,7 @@ function ProfilePage(props) {
     return (
         <div className='ProfilePage'>
             <ProfilePage__ProfileBox />
-            {posts}         
+            {posts.reverse()}         
 
             
         </div>

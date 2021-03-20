@@ -20,13 +20,14 @@
 
 @media (max-width: 699px) {
   .Header {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
 .Header img {
+  justify-self: flex-start;
   width: 40px;
 }
 /*# sourceMappingURL=header.css.map */

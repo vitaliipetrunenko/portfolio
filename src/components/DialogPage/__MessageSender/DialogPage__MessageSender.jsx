@@ -22,18 +22,15 @@ const Textarea = styled.textarea`
     }
 `
 ;
-let input = React.createRef();
-let addMessage = () => {
-    let text = input.current.value;
-    alert(text);
-}
+
 
 
 function DialogPage_MessageSender(props) {
+let input = React.createRef();
 return(<div className={styl.MessageSender}>
 <Textarea ref={input}></Textarea>
 
-<SendButton onClick={addMessage}>Send!</SendButton>
+<SendButton onClick={function(){props.addMessage(input.current.value)}}>Send!</SendButton>
 
 
 </div>
