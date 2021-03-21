@@ -18,7 +18,7 @@ function MessageBox(props) {
         hour12: false
         
       };
-    if (props.sender === currUser)
+    if (props.sender === props.currUser)
         return (
             <div className={styl.MessageBoxRight}>
                 <img className={styl.avatar} src={props.avatar}></img>
@@ -46,9 +46,9 @@ function MessageBox(props) {
 }
 
 function DialogPage__DialogField(props) {
-    let Messages = props.dialogMessages.map(el => <MessageBox text={el.text} date={el.date} sender={el.sender} avatar={el.avatar} img={el.img} />);
+    let Messages = props.dialogMessages.map(el => <MessageBox currUser={props.currUser} text={el.text} date={el.date} sender={el.sender} avatar={el.avatar} img={el.img} />);
     return (<div className={styl.MessageWrapper}>
-        <DialogPage_MessageSender addMessage={props.addMessageprop}/>
+        <DialogPage_MessageSender dispatch={props.dispatch} newMessageTextField={props.newMessageTextField} />
         <div className={styl.DialogField}>
             
             {Messages.reverse()}

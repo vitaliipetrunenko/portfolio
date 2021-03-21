@@ -14,7 +14,7 @@ function NewsFeed(props) {
     //props.addPost("text",lorem3);
     return (
         <div className={styl.NewsFeed}>
-            <NewPost AddPost={props.addPostprop}/>
+            <NewPost dispatch={props.dispatch} newPostTextField={props.newPostTextField} />
             {posts.reverse()}
         </div>
     );

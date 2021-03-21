@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import state from './redux/state.js';
-import {addPost,addMessage} from './redux/state.js';
-import {renderEntireTree} from './render.js';
+import Storage from './redux/state.js';
+//import {addPost,addMessage,changeNewPostText,changeNewMessageText} from './redux/state.js';
+
 
 
 
@@ -40,7 +40,13 @@ let postDB = [
     {text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at orci suscipit augue vestibulum cursus vel in orci. In sit.", date: new Date('1995-12-17T03:24:00'), sender: "dima", avatar: avatar, img: avatar},
     {text: "l", date: new Date('1995-12-17T03:24:00'), sender: "Hlib Stetsiuk", avatar: avatar,img: avatar},
 ]
-renderEntireTree(state,addPost,addMessage);
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+ let renderEntireTree = (state) => {
+  ReactDOM.render(
+    <React.StrictMode>
+      <App state={Storage.getState()} dispatch={Storage.dispatch.bind(Storage)} />
+    </React.StrictMode>,
+    document.getElementById('root')
+  );}
+  renderEntireTree(Storage.getState());
+  Storage.subscribe(renderEntireTree);
