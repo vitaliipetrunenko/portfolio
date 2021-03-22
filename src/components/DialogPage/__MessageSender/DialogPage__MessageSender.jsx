@@ -1,7 +1,7 @@
 import React from 'react';
 import styl from './DialogPage__MessageSender.module.css';
 import styled from 'styled-components';
-import { createActionCHANGEMESSAGETEXTAREA,createActionADDMESSAGE } from '../../../redux/state';
+
 
 
 const SendButton = styled.button `
@@ -30,9 +30,9 @@ function DialogPage_MessageSender(props) {
 let input = React.createRef();
 
 return(<div className={styl.MessageSender}>
-<Textarea ref={input} value={props.newMessageTextField} onChange={function(){console.log(props.newMessageTextField);props.dispatch(createActionCHANGEMESSAGETEXTAREA(input.current.value))}}></Textarea>
+<Textarea ref={input} value={props.newMessageTextField} onChange={()=>{props.changeTextArea(input.current.value)}}></Textarea>
 
-<SendButton onClick={function(){props.dispatch(createActionADDMESSAGE())}}>Send!</SendButton>
+<SendButton onClick={()=>{props.sendMessage()}}>Send!</SendButton>
 
 
 </div>
