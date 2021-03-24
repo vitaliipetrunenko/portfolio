@@ -2,6 +2,7 @@ import lorem1 from "./../media/photos/image01__.jpg"
 import lorem2 from "./../media/photos/images.jpg"
 import lorem3 from "./../media/photos/lorem-ipsum-generator-cicero-engraving.png"
 import avatar from "./../media/avatars/арбуз4.jpg"
+
 const ADD_POST = "ADD-POST";
 
 const CHANGE_POST_TEXTAREA="CHANGE-POST-TEXTAREA";
@@ -20,32 +21,39 @@ let defaultPosts = {
 
 
 export const postReducer = (state=defaultPosts,action)=>{
-
+    let stateCopy = {...state};
 
     if(action.type===ADD_POST){
-            console.log("postcreating")
-            let lastId = state.postDB[state.postDB.length - 1]
+        let lastId = Object.keys(state.postDB).length
+
+        console.log();
             let newPost = {
+                
                 id: lastId,
                 txt: state.newPostTextField,
-                img: action.contentIMG
+                img: action.contentIMG,
+                
             }
-            state.newPostTextField="";
-            state.postDB.push(newPost);
+        return {
+            ...state,
+            newPostTextField:"",
+            
+            postDB:[...state.postDB,newPost]
+            
             
         
-            
+        }
     }
     else if(action.type ===CHANGE_POST_TEXTAREA){
-        console.log("textcreating")
-           // console.log(postText);
-            state.newPostTextField = action.content;
-    
+       return{
+            ...state,
+            newPostTextField: action.content
+       }
             
         
        
     }
-    return state;
+    return state
 
 
 

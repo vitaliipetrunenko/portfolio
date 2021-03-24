@@ -22,9 +22,9 @@ let defaultDialogs =  {
 
 
     dialoglistDB: [
-        { text: "lolol", date: "Today at 6pm", sender: "Hlib Stetsiuk", avatar: avatar },
-        { text: "lo", date: "Today at 6pm", sender: "Hlib Stetsiuk", avatar: avatar },
-        { text: "lolol", date: "Today at 6pm", sender: "Hlib Stetsiuk", avatar: avatar }
+        { id: 1,text: "lolol", date: "Today at 6pm", sender: "Hlib Stetsiuk", avatar: avatar },
+        { id: 2,text: "lo", date: "Today at 6pm", sender: "Hlib Stetsiuk", avatar: avatar },
+        { id: 3,text: "lolol", date: "Today at 6pm", sender: "Hlib Stetsiuk", avatar: avatar }
     ]
 
 }
@@ -34,11 +34,7 @@ const dialogReducer = (state=defaultDialogs, action)=>{
 
 
     if(action.type===ADD_MESSAGE){
-        //addMessage() {
-
             var options = {
-            
-            
                 month: 'long',
                 day: 'numeric',
                 
@@ -46,30 +42,29 @@ const dialogReducer = (state=defaultDialogs, action)=>{
                 hour: 'numeric',
                 minute: 'numeric',
                 hour12: false
-                
               };
-    
-            
-            let lastId = state.dialogMessagesDB[state.dialogMessagesDB - 1];
+            let lastId = Object.keys(state.dialogMessagesDB).length;
             let newMessage = {
                 id: lastId,
+                
                 text: state.newMessageTextField,
                 date: new Date().toLocaleDateString("en-US", options),
                 sender: state.SessionInfo.currUser,
                 avatar: avatar,
                 img: avatar
             }
-            //console.log(newMessage);
-            state.dialogMessagesDB.push(newMessage);
-            state.newMessageTextField = "";
+            return {
+                ...state,
+                newMessageTextField : "",
+                dialogMessagesDB : [...state.dialogMessagesDB,newMessage]
             
+            }
     }
     else if(action.type ===CHANGE_MESSAGE_TEXTAREA){
-       // changeNewMessageText(postText) {
-            //console.log(postText);
-            state.newMessageTextField = action.content;
-    
-          
+        return{
+            ...state,
+            newMessageTextField: action.content
+       }
        
     }
     return state;

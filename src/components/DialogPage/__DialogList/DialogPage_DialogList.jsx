@@ -9,9 +9,9 @@ function DialogItem(props){
         <div className={styl.DialogItem}>
             <img src={props.avatar} className={styl.avatar}></img>
             <div className={styl.textblock}>
-            <h4>{props.sender}<h5>{props.date}</h5>
-            <h6>{props.text}</h6>
-            </h4>
+            <div>{props.sender}<div>{props.date}</div>
+            <div>{props.text}</div>
+            </div>
             </div>
 
         </div>
@@ -20,8 +20,8 @@ function DialogItem(props){
 }
 
 function DialogPage__DialogList(props) {
-    let dialogs = props.dialoglistDb.map(el => <DialogItem text={el.text} date={el.date} sender={el.sender} avatar={el.avatar}/>);
-    let dialogsMinified = props.dialoglistDb.map(el => <DialogItem avatar={el.avatar}/>);
+    let dialogs = props.dialoglistDb.map(el => <DialogItem text={el.text} date={el.date} key={el.id} sender={el.sender} avatar={el.avatar}/>);
+    let dialogsMinified = props.dialoglistDb.map(el => <DialogItem avatar={el.avatar} />);
     return (
         <div className={styl.DialogPage__DialogList}>
         <MediaQuery minDeviceWidth={700} device={{deviceWidth: visualViewport.width}}>

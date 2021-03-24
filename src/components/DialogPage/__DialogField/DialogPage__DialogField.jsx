@@ -48,9 +48,9 @@ function MessageBox(props) {
 
 function DialogPage__DialogField(props) {
     
-    let Messages = props.dialogMessages.map(el => <MessageBox currUser={props.currUser} text={el.text} date={el.date} sender={el.sender} avatar={el.avatar} img={el.img} />);
+    let Messages = props.dialogMessages.map(el => <MessageBox currUser={props.currUser} key={el.id}  text={el.text} date={el.date} sender={el.sender} avatar={el.avatar} img={el.img} />);
     return (<div className={styl.MessageWrapper}>
-        <ContainerDialogPage_MessageSender dispatch={props.dispatch} newMessageTextField={props.newMessageTextField} />
+        <ContainerDialogPage_MessageSender /*dispatch={props.dispatch}*/ newMessageTextField={props.newMessageTextField} />
         <div className={styl.DialogField}>
             
             {Messages.reverse()}

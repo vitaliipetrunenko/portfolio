@@ -9,7 +9,7 @@ function Post(props) {
         <div className={styl.Post}>
             <div className={styl.Post__Header}>
             <img src={avatar} className={styl.avatar}></img>
-            <h5>Oleg Arbuzenko<h6>today at 6:30pm</h6></h5>
+            <h5>Oleg Arbuzenko<span style={{display:'block'}}>today at 6:30pm</span></h5>
             
             </div>
             <img src={props.img} ></img>

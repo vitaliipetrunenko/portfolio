@@ -11,11 +11,11 @@ import ContainerNewPost from '../NewPost/ContainerNewPost';
 
 
 function NewsFeed(props) {
-    let posts = props.postDB.map( el => <Post txt={el.txt} img={el.img} />);
+    let posts = props.postDB.map( el => <Post txt={el.txt} key={el.id} img={el.img} />);
     //props.addPost("text",lorem3);
     return (
         <div className={styl.NewsFeed}>
-            <ContainerNewPost dispatch={props.dispatch} newPostTextField={props.newPostTextField} />
+            <ContainerNewPost /*dispatch={props.dispatch}*/ newPostTextField={props.newPostTextField} />
             {posts.reverse()}
         </div>
     );
