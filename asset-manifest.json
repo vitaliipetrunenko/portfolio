@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8a843831.chunk.css",
-    "main.js": "/portfolio/static/js/main.181c8f0a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.181c8f0a.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.5b9eee92.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5b9eee92.js.map",
-    "static/js/2.e3126a1f.chunk.js": "/portfolio/static/js/2.e3126a1f.chunk.js",
-    "static/js/2.e3126a1f.chunk.js.map": "/portfolio/static/js/2.e3126a1f.chunk.js.map",
-    "static/js/3.4c992eff.chunk.js": "/portfolio/static/js/3.4c992eff.chunk.js",
-    "static/js/3.4c992eff.chunk.js.map": "/portfolio/static/js/3.4c992eff.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.5230d4bc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5230d4bc.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b83e69fe.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b83e69fe.js.map",
+    "static/js/2.fc354665.chunk.js": "/portfolio/static/js/2.fc354665.chunk.js",
+    "static/js/2.fc354665.chunk.js.map": "/portfolio/static/js/2.fc354665.chunk.js.map",
+    "static/js/3.a1d5665f.chunk.js": "/portfolio/static/js/3.a1d5665f.chunk.js",
+    "static/js/3.a1d5665f.chunk.js.map": "/portfolio/static/js/3.a1d5665f.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.8a843831.chunk.css.map": "/portfolio/static/css/main.8a843831.chunk.css.map",
-    "static/js/2.e3126a1f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e3126a1f.chunk.js.LICENSE.txt",
+    "static/js/2.fc354665.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fc354665.chunk.js.LICENSE.txt",
     "static/media/image01__.92e45fd6.jpg": "/portfolio/static/media/image01__.92e45fd6.jpg",
     "static/media/logo.6ce24c58.svg": "/portfolio/static/media/logo.6ce24c58.svg",
     "static/media/lorem-ipsum-generator-cicero-engraving.057a1842.png": "/portfolio/static/media/lorem-ipsum-generator-cicero-engraving.057a1842.png",
     "static/media/арбуз4.a5c01db8.jpg": "/portfolio/static/media/арбуз4.a5c01db8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b9eee92.js",
-    "static/js/2.e3126a1f.chunk.js",
+    "static/js/runtime-main.b83e69fe.js",
+    "static/js/2.fc354665.chunk.js",
     "static/css/main.8a843831.chunk.css",
-    "static/js/main.181c8f0a.chunk.js"
+    "static/js/main.5230d4bc.chunk.js"
   ]
 }
