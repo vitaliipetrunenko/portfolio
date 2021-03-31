@@ -13,10 +13,18 @@ export const createActionCHANGEMESSAGETEXTAREA =(text)=>({type:"CHANGE-MESSAGE-T
 export const createActionCHANGEPOSTTEXTAREA =(text)=>({type:"CHANGE-POST-TEXTAREA",content:text})
 export const createActionADDPOST =()=>({type:"ADD-POST"})
 
+export const createActionFOLLOW =(userID)=>({type:"FOLLOW",userID:userID})
+export const createActionUNFOLLOW =(userID)=>({type:"UNFOLLOW",userID:userID})
+export const createActionSETUSERS =(users)=>({type:"SET-USERS",users:users})
+
+export const createActionSETPAGE =(pageIndex)=>({type:"SET-PAGE",pageIndex:pageIndex})
+export const createActionSETUSERCOUNT =(userCount)=>({type:"SET-USER-COUNT",totalUsersCount:userCount})
+
+
 //import {renderEntireTree} from './../render.js';
 
 
-let Storage = {
+/*let Storage = {
     _state: {
         
         dialogData: {
@@ -83,3 +91,4 @@ let Storage = {
 }
 
 export default Storage;
+*/

@@ -7,6 +7,7 @@ import Footer from './components/footer/footer';
 import { BrowserRouter, Route, Redirect } from 'react-router-dom';
 import DialogPage from './components/DialogPage/DialogPage';
 import NewsFeed from './components/NewsFeed/NewsFeed';
+import ContainerPeoplePage from './components/PeoplePage/ContainerPeoplePage';
 
 
 
@@ -31,6 +32,9 @@ function App(data) {
         )}/>
           <Route path='/messages/' render={(props) => (
           <DialogPage currUser= {data.state.dialogData.SessionInfo.currUser} newMessageTextField={data.state.dialogData.newMessageTextField} dialoglistDB={data.state.dialogData.dialoglistDB} dialogMessagesDB={data.state.dialogData.dialogMessagesDB} dispatch={data.dispatch} isAuthed={true} />
+        )}/>
+        <Route path='/people/' render={(props) => (
+          <ContainerPeoplePage currUser= {data.state.dialogData.SessionInfo.currUser}  UsersDB={data.state.dialogData.dialogMessagesDB} dispatch={data.dispatch} isAuthed={true} />
         )}/>
       </div>
       <Footer />

@@ -9,6 +9,7 @@ function Sidebar() {
         
             <Sidebar__buttonPlatform txt="News" link="/news"/>
             <Sidebar__buttonPlatform txt="Profile" link="/profile"/>
+            <Sidebar__buttonPlatform txt="People" link="/people"/>
             <Sidebar__buttonPlatform txt="Messages" link="/messages"/>
             <Sidebar__buttonPlatform txt="Gallery" />
             <Sidebar__buttonPlatform txt="Music" />

@@ -1,0 +1,11 @@
+.selectedPage {
+  color: green;
+  font-size: large;
+  border: 0.5px solid;
+  border-radius: 100%;
+}
+
+.PageSelectWrap span {
+  padding: 5px;
+}
+/*# sourceMappingURL=PeoplePage.module.css.map */

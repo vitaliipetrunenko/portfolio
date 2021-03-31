@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EAET,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,WAAW;EACnB,aAAa,EAAC,IAAI;CACrB;;AACD,AACI,eADW,CACX,IAAI,CAAA;EACA,OAAO,EAAE,GAAG;CACf",
+    "sources": [
+        "PeoplePage.module.scss"
+    ],
+    "names": [],
+    "file": "PeoplePage.module.css"
+}
